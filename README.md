@@ -11,7 +11,7 @@ please see [TAP_MIGRATION.md](doc/TAP_MIGRATION.md).
 
 # "To install, drag this icon..." no more!
 
-[![Build Status](https://travis-ci.org/caskroom/homebrew-cask.png?branch=master)](https://travis-ci.org/caskroom/homebrew-cask)
+[![Build Status](https://travis-ci.org/cola1129/homebrew-cask.png?branch=master)](https://travis-ci.org/cola1129/homebrew-cask)
 [![Code Climate](https://codeclimate.com/github/caskroom/homebrew-cask.png)](https://codeclimate.com/github/caskroom/homebrew-cask)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/caskroom/homebrew-cask/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
