@@ -1,7 +1,9 @@
 class Orange < Cask
-  url 'http://orange.biolab.si/download/Orange-2.7.3-11885.dmg'
+  version '2.7.5-11947'
+  sha256 'c2941bc4cdd9ea827f5c0481bf4e0c2c0582fc56f86cefa216238fbc4c1d925b'
+
+  url 'http://orange.biolab.si/download/Orange-2.7.5-11947.dmg'
   homepage 'http://orange.biolab.si/'
-  version '2.7.3-11885'
-  sha256 'bbdaa8c998a36c49cbe861dc729b6be2ee2da837be5fbef4e5f3b8563e315aa2'
+
   link 'Orange.app'
 end

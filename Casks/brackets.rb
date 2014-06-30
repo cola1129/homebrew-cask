@@ -1,7 +1,9 @@
 class Brackets < Cask
-  url 'https://github.com/adobe/brackets/releases/download/sprint-38/Brackets.Sprint.38.dmg'
+  version '0.41.0'
+  sha256 'f0e10c1a10f1e1c3458d9b84e8fda97e8e7e2e61775d6eea7fec1e8a1f3beb6e'
+
+  url 'https://github.com/adobe/brackets/releases/download/release-0.41/Brackets.Release.0.41.dmg'
   homepage 'http://brackets.io'
-  version '0.38.0'
-  sha256 'afac1657a822cbee928633080a844e9a127144d5e834b710a83d04273e818cc1'
+
   link 'Brackets.app'
 end

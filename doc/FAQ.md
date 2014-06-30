@@ -21,7 +21,7 @@ clean up documentation! Anything you can do to help out is very welcome.
 
 It's also [__pretty darn easy__ to create Casks](../CONTRIBUTING.md), so
 please build more of them for the software you use. And if homebrew-cask doesn't
-support the packaging format of your software, please [open an issue](https://github.com/phinze/homebrew-cask/issues)
+support the packaging format of your software, please [open an issue](https://github.com/caskroom/homebrew-cask/issues)
 and we can get it working together.
 
 The whole idea is to build a _community-maintained_ list of easily installable
@@ -46,3 +46,15 @@ prefer to try and work things so that we can keep ourselves Homebrewy both in
 implementation and idioms. Trying to manage all of `~/Applications` would move
 the project more towards a standalone system, which would mean reimplementing a
 lot of the Homebrew stuff we lean on now.
+
+## Can I set up my own Cask Tap?
+
+Yes! See [ALTERNATE_CASK_TAPS.md](ALTERNATE_CASK_TAPS.md).
+
+## Can I install a version other than the English one?
+
+Some applications such as Thunderbird or Firefox provides many localized versions. However, currently only English versions are provided in the main repository. Additional languages may be available in the [https://github.com/caskroom/homebrew-versions](homebrew-version repository). We are aiming to find a better system to manage multiple languages and versions.
+
+## How about applications that auto-update but that are managed by Cask?
+
+Applications that auto-update such as Firefox, Thunderbird or VLC will do so as usual, nothing will be broken. A minor issue however is that the application will still be located in a versioned folder even though the version has changed. For example, the application might be installed in /opt/homebrew-cask/Caskroom/mygreatapp/1.3 even though the version number is now 1.4.
